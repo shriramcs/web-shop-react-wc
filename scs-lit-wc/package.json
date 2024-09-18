@@ -1,0 +1,26 @@
+{
+  "name": "scs-lit-wc",
+  "version": "0.0.1",
+  "description": "A library of Lit web components",
+  "author": "shriramcs",
+  "type": "module",
+  "main": "dist/counter.js",
+  "module": "dist/counter.js",
+  "types": "dist/counter.d.ts",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "@types/node": "^22.5.5",
+    "typescript": "^5.5.3",
+    "vite": "^5.4.1"
+  },
+  "dependencies": {
+    "lit": "^3.2.0"
+  }
+}
